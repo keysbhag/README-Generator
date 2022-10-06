@@ -14,25 +14,25 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        message: "Enter your description"
+        message: "Enter your description",
         default: 'description here'
     },
     {
         type: 'input',
         name: 'installation',
-        message: "Enter your installation"
+        message: "Enter your installation",
         default: 'installation method here'
     },
     {
         type: 'input',
         name: 'usage',
-        message: "Enter your usage"
+        message: "Enter your usage",
         default: 'usage method here'
     },
     {
         type: 'input',
         name: 'credits',
-        message: "Enter your credits"
+        message: "Enter your credits",
         default: 'any credits here'
     },
     {
@@ -44,13 +44,13 @@ const questions = [
     {
         type: 'input',
         name: 'contribute',
-        message: "Enter your contributing list"
+        message: "Enter your contributing list",
         default: 'how to contribute here'
     },
     {
         type: 'input',
         name: 'tests',
-        message: "Enter your Tests"
+        message: "Enter your Tests",
         default: 'any tests here'
     },
     {
