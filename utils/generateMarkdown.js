@@ -21,21 +21,21 @@ function renderLicenseBadge(license) {
 // function returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  let prefix = 'License, Here is the link for more details: ' 
+  let prefix = ' License, Here is the link for more details: ' 
   if (license == 'None'){
     return ''
   }
   if (license == 'MIT'){
-    return prefix+'https://opensource.org/licenses/MIT' 
+    return license+prefix+'https://opensource.org/licenses/MIT' 
   }
   if (license == 'Apache'){
-    return prefix+'https://opensource.org/licenses/Apache-2.0' 
+    return license+prefix+'https://opensource.org/licenses/Apache-2.0' 
   }
   if (license == 'GPLv2'){
-    return prefix+'https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html' 
+    return license+prefix+'https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html' 
   }
   if (license == 'GPLv3'){
-    return prefix+'https://www.gnu.org/licenses/gpl-3.0' 
+    return license+prefix+'https://www.gnu.org/licenses/gpl-3.0' 
   }
 }
 
@@ -49,7 +49,7 @@ function renderLicenseSection(license) {
   }
 }
 
-// TODO: Create a function to generate markdown for README
+// Template markdown to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title} \n\n
 ## Description 
@@ -69,7 +69,7 @@ ${data.usage} \n\n
 ## Credits
 ${data.credits} \n\n
 ${renderLicenseSection(data.license)}
-${data.license} ${renderLicenseLink(data.license)} ${renderLicenseBadge(data.license)}
+${renderLicenseLink(data.license)} ${renderLicenseBadge(data.license)}
 ## Contribute 
 ${data.contribute} \n\n
 ## Testing 
