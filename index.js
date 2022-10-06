@@ -15,47 +15,55 @@ const questions = [
         type: 'input',
         name: 'description',
         message: "Enter your description"
+        default: 'README.MD'
     },
     {
         type: 'input',
         name: 'installation',
         message: "Enter your installation"
+        default: 'README.MD'
     },
     {
         type: 'input',
         name: 'usage',
         message: "Enter your usage"
+        default: 'README.MD'
     },
     {
         type: 'input',
         name: 'credits',
         message: "Enter your credits"
+        default: 'README.MD'
     },
     {
         type: "list",
         name: "license",
         message: "Choose an option for a license",
-        choices: ['None','MIT','GNU','Apache']
+        choices: ['None','MIT','Apache', 'GPLv2', 'GPLv3']
     },
     {
         type: 'input',
         name: 'contribute',
         message: "Enter your contributing list"
+        default: 'README.MD'
     },
     {
         type: 'input',
         name: 'tests',
         message: "Enter your Tests"
+        default: 'README.MD'
     },
     {
         type: 'input',
         name: 'username',
         message: "What is your username?"
+        default: 'README.MD'
     },
     {
         type: 'input',
         name: 'email',
         message: "What is your email?"
+        default: 'README.MD'
     }
 ];
 
