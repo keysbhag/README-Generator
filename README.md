@@ -2,7 +2,7 @@
 
 
 ## Description 
-The motivation for this project was to make a README generator to simplify the process of making a README for all my projects. 
+The motivation for this project was to make a README generator to simplify the process of making a README for all my projects. This makes the production for documenting these projects much quicker and will save the user a lot of time
 
 
 ## Table of Contents 
@@ -32,7 +32,6 @@ Keyshawn Bhagwandin
 MIT License, Here is the link for more details: https://opensource.org/licenses/MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)] 
 
 ## Demo
-
 Here is the link to the video: https://www.youtube.com/watch?v=omtAVKt0wz8
 
 ## Contribute 

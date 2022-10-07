@@ -68,7 +68,7 @@ const questions = [
 // Gets passed in the path file we want to create and write to, and also the markdown template we want to write in that path file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (error) => error ?
-    console.log(error) : console.log("success"));
+    console.log(error) : console.log("Success!"));
 }
 
 // initializes the inquirer function and prompts user with questions to fill out their README Template
